@@ -4,7 +4,9 @@
  *
  * This code snippet registers a custom taxonomy for 'my_post_type'.
  *
- * Author: Shubham
+ * Author: Shubham sedani 
+ *
+ * @package YourThemeOrPluginName
  */
 
 add_action('init', 'register_custom_taxonomy');

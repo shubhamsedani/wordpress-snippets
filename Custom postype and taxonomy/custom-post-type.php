@@ -4,7 +4,9 @@
  *
  * This code snippet registers a custom post type for 'my_cpt'.
  *
- * Author: Shubham
+ * Author: Shubham sedani
+ *  *
+ * @package YourThemeOrPluginName
  */
 
 add_action('init', 'register_custom_post_type', 0);

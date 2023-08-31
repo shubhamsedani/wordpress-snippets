@@ -6,7 +6,7 @@
  * This code snippet ensures that the WooCommerce cart total meets a minimum requirement
  * before allowing the customer to place an order.
  *
- * Author: Shubham
+ * Author: Shubham sedani
  *
  * @package YourThemeOrPluginName
  */
