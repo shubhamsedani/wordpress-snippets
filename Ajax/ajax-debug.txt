@@ -1,0 +1,11 @@
+Debugging WordPress AJAX Errors:
+
+1. Navigate to the WordPress Directory: Start by locating your WordPress project directory.
+2. Locate load.php: Inside the WordPress directory, find the 'wp-includes/load.php' file.
+3. Find "display_errors": Within 'load.php', search for the term "display_errors." It will look like ini_set( 'display_errors', 0 );.
+4. Update "display_errors" Setting: Change the value from '0' to '1'. It should now read ini_set( 'display_errors', 1 );.
+5. View AJAX Errors: With 'display_errors' set to '1', you will now be able to view detailed error messages when debugging AJAX-related issues in WordPress.
+
+By following these steps, you can effectively troubleshoot and diagnose AJAX errors within your WordPress project for smoother development and issue resolution.
+
+Note: Since 'load.php' is a default WordPress file, it is strongly recommended to revert the changes to the original settings once debugging is complete to maintain the integrity of your WordPress installation.
