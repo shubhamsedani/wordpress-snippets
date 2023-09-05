@@ -5,7 +5,7 @@
  * This code snippet adds support for SVG image uploads and applies necessary styles for proper rendering.
  * It is compatible with WordPress version 4.7.1 and higher.
  *
- * Author: [Your Name]
+ * Author: shubhamsedani
  */
 
 // Add SVG support

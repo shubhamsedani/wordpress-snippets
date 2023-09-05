@@ -5,7 +5,7 @@
  * This code snippet adjusts the shipping cost by adding an extra charge of 10 units for each item 
  * if the cart contains more than 15 products.
  *
- * Author: Shubham Sedani
+ * Author: shubhamsedani
  */
 
 add_filter('woocommerce_package_rates', 'filter_shipping_rates_costs', 10, 2);

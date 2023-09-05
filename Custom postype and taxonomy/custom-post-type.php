@@ -4,7 +4,7 @@
  *
  * This code snippet registers a custom post type for 'my_cpt'.
  *
- * Author: Shubham sedani
+ * Author: shubhamsedani
  *  *
  * @package YourThemeOrPluginName
  */

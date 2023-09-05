@@ -4,7 +4,7 @@
  *
  * This code snippet registers a custom taxonomy for 'my_post_type'.
  *
- * Author: Shubham sedani 
+ * Author: shubhamsedani 
  *
  * @package YourThemeOrPluginName
  */
