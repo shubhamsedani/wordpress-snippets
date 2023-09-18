@@ -18,7 +18,7 @@ add_filter('script_loader_src', 'custom_remove_version_css_js', 9999, 2);
 function custom_remove_version_css_js($src, $handle)
 {
     $rand_no = rand(10, 1000);
-    $handles_with_version = ['style']; 
+    $handles_with_version = ['style'];
     // Add other script handles here if needed
 
     if (strpos($src, 'ver=') && !in_array($handle, $handles_with_version, true)) {
